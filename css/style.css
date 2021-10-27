@@ -1,0 +1,53 @@
+/*SELECTOR DE ELEMENTO. Selecciona a todos los elementos párrafos y les aplica los siguientes estilos:*/
+
+
+/*
+p{
+    color: rgba(0,0,255,0.5); 
+    font-size: 30px; 
+    padding: 10px 20px;
+}
+*/
+
+
+/*SELECTOR DE CLASE*/
+
+.idea-principal {
+    color: rgba(0, 0, 255, 0.5);
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+
+/*SELECTOR DE ID*/
+
+#software {
+    color: red;
+}
+
+#estilo {
+    margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: aliceblue;
+}
+
+#color {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+#amarillo {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+#rojo {
+    color: red
+}
+
+* {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+ol p {
+    background-color: yellow;
+}
